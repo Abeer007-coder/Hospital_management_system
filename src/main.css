@@ -1,0 +1,22 @@
+/* Background image and styling */
+body {
+    background-image: url('hospital-bg.jpg'); /* Replace with your image filename */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Add a translucent background for the main container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
